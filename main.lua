@@ -1,14 +1,7 @@
---[[ 
-    BANANA CAT HUB - PHIÊN BẢN ĐÃ SỬA LỖI (ANTI-KICK)
-    - Đã giảm TweenSpeed để tránh bị server kick.
-    - Đã gỡ bỏ lệnh tự Shutdown.
-    - Đã tối ưu hệ thống chống AFK.
-]]
-
 local vu1 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local v2 = vu1:CreateWindow({
-    ["Title"] = "Banana Cat Hub-Blox Fruit [ FIXED ]",
-    ["SubTitle"] = "By KimP Roblox - Optimized by AI",
+    ["Title"] = "Banana Cat Hub-BF [ FIXED ]",
+    ["SubTitle"] = "By Tonki92 - Optimized by AI",
     ["TabWidth"] = 160,
     ["Theme"] = "Darker",
     ["Acrylic"] = false,
@@ -2681,21 +2674,21 @@ task.defer(function()
     end
 end)
 vu3.Info:AddButton({
-    ["Title"] = "KimP Roblox Community",
+    ["Title"] = "tonki92 Community",
     ["Description"] = "Discord",
     ["Callback"] = function()
         setclipboard(tostring("https://discord.gg/JZcZByP4"))
     end
 })
 vu3.Info:AddButton({
-    ["Title"] = "KimP Roblox",
+    ["Title"] = "tonki92",
     ["Description"] = "Youtube",
     ["Callback"] = function()
         setclipboard(tostring("https://youtube.com/@kimprobloxdz?si=9FcWaeoZ1Z9skT0X"))
     end
 })
 vu3.Info:AddButton({
-    ["Title"] = "KimP Roblox",
+    ["Title"] = "tonki92",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
         setclipboard(tostring("www.tiktok.com/@kimprobloxvn"))
