@@ -1,5 +1,5 @@
 -- ===== TK HUB KEY SYSTEM (SAFE) =====
-local CORRECT_KEY = "kietsebeo"
+local CORRECT_KEY = "test_29"
 -- ===================================
 
 -- đợi game load hoàn toàn
@@ -12,4 +12,4 @@ if getgenv().TK_KEY ~= CORRECT_KEY then
 end
 
 -- load main script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TKHubBaric11/cc/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tonki92/zill/main/main.lua"))()
